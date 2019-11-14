@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=development",
-    "start": "webpack-dev-server --mode=development"
+    "start": "webpack-dev-server --mode=development",
+    "lint": "tslint './*.ts'",
+    "lintfix": "tslint --fix './*.ts'"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "tslint": "^5.20.1"
   }
 }
