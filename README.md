@@ -24,4 +24,5 @@ npm run start
 ```
 ※ 自動でbuild、ブラウザリロードもしてくれるコマンド
 
-
+### 工数など
+https://docs.google.com/spreadsheets/d/1l6hN2GODXR3hC16DtEGNlj7IVJlqwXo2dq_pZJgItwo/edit#gid=0
